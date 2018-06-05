@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		972208603D28B2DAB0B6A034 /* libPods-YTK_Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A7F29AEB185A36539557E1 /* libPods-YTK_Test.a */; };
+		CF33C942209ADBED00FD4FF4 /* CustomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF33C941209ADBED00FD4FF4 /* CustomModel.m */; };
+		CF33C945209ADC1700FD4FF4 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF33C944209ADC1700FD4FF4 /* CustomTableViewCell.m */; };
+		CF33C948209ADC4A00FD4FF4 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF33C947209ADC4A00FD4FF4 /* TableViewController.m */; };
+		CF33C94B209ADC6900FD4FF4 /* TableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF33C94A209ADC6900FD4FF4 /* TableViewModel.m */; };
+		CF33C94E209ADE2100FD4FF4 /* TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = CF33C94D209ADE2100FD4FF4 /* TableViewDataSource.m */; };
+		CF33C951209ADE6E00FD4FF4 /* TableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF33C950209ADE6E00FD4FF4 /* TableViewDelegate.m */; };
+		CF33C958209AE91500FD4FF4 /* YiRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = CF33C954209AE91400FD4FF4 /* YiRefreshFooter.m */; };
+		CF33C959209AE91500FD4FF4 /* YiRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CF33C955209AE91400FD4FF4 /* YiRefreshHeader.m */; };
 		CF72F2732092BA26007F8FEA /* TestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CF72F2722092BA26007F8FEA /* TestRequest.m */; };
 		CF72F2762092F37F007F8FEA /* RegisterAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = CF72F2752092F37F007F8FEA /* RegisterAPI.m */; };
 		CFA3CC6F2092AE3600FC06FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA3CC6E2092AE3600FC06FB /* AppDelegate.m */; };
@@ -42,6 +50,22 @@
 		392F9E70A452A9DA53EBBB31 /* Pods-YTK_Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTK_Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YTK_Test/Pods-YTK_Test.debug.xcconfig"; sourceTree = "<group>"; };
 		78D3DB08AA9DBC71EF33F9AE /* Pods-YTK_Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTK_Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-YTK_Test/Pods-YTK_Test.release.xcconfig"; sourceTree = "<group>"; };
 		C2A7F29AEB185A36539557E1 /* libPods-YTK_Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YTK_Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF33C940209ADBED00FD4FF4 /* CustomModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomModel.h; sourceTree = "<group>"; };
+		CF33C941209ADBED00FD4FF4 /* CustomModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomModel.m; sourceTree = "<group>"; };
+		CF33C943209ADC1700FD4FF4 /* CustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		CF33C944209ADC1700FD4FF4 /* CustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		CF33C946209ADC4A00FD4FF4 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		CF33C947209ADC4A00FD4FF4 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		CF33C949209ADC6900FD4FF4 /* TableViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewModel.h; sourceTree = "<group>"; };
+		CF33C94A209ADC6900FD4FF4 /* TableViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewModel.m; sourceTree = "<group>"; };
+		CF33C94C209ADE2100FD4FF4 /* TableViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewDataSource.h; sourceTree = "<group>"; };
+		CF33C94D209ADE2100FD4FF4 /* TableViewDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewDataSource.m; sourceTree = "<group>"; };
+		CF33C94F209ADE6E00FD4FF4 /* TableViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewDelegate.h; sourceTree = "<group>"; };
+		CF33C950209ADE6E00FD4FF4 /* TableViewDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewDelegate.m; sourceTree = "<group>"; };
+		CF33C954209AE91400FD4FF4 /* YiRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YiRefreshFooter.m; sourceTree = "<group>"; };
+		CF33C955209AE91400FD4FF4 /* YiRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YiRefreshHeader.m; sourceTree = "<group>"; };
+		CF33C956209AE91400FD4FF4 /* YiRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YiRefreshHeader.h; sourceTree = "<group>"; };
+		CF33C957209AE91400FD4FF4 /* YiRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YiRefreshFooter.h; sourceTree = "<group>"; };
 		CF72F2712092BA26007F8FEA /* TestRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRequest.h; sourceTree = "<group>"; };
 		CF72F2722092BA26007F8FEA /* TestRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRequest.m; sourceTree = "<group>"; };
 		CF72F2742092F37F007F8FEA /* RegisterAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterAPI.h; sourceTree = "<group>"; };
@@ -108,6 +132,72 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CF33C93B209ADA4A00FD4FF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF33C940209ADBED00FD4FF4 /* CustomModel.h */,
+				CF33C941209ADBED00FD4FF4 /* CustomModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF33C93C209ADA6300FD4FF4 /* TableViewProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				CF33C94C209ADE2100FD4FF4 /* TableViewDataSource.h */,
+				CF33C94D209ADE2100FD4FF4 /* TableViewDataSource.m */,
+				CF33C94F209ADE6E00FD4FF4 /* TableViewDelegate.h */,
+				CF33C950209ADE6E00FD4FF4 /* TableViewDelegate.m */,
+			);
+			path = TableViewProtocol;
+			sourceTree = "<group>";
+		};
+		CF33C93D209ADA6F00FD4FF4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF33C949209ADC6900FD4FF4 /* TableViewModel.h */,
+				CF33C94A209ADC6900FD4FF4 /* TableViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CF33C93E209ADA7200FD4FF4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CF33C946209ADC4A00FD4FF4 /* TableViewController.h */,
+				CF33C947209ADC4A00FD4FF4 /* TableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF33C93F209ADA7500FD4FF4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF33C943209ADC1700FD4FF4 /* CustomTableViewCell.h */,
+				CF33C944209ADC1700FD4FF4 /* CustomTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF33C952209AE8D600FD4FF4 /* 3rdLibs */ = {
+			isa = PBXGroup;
+			children = (
+				CF33C953209AE91400FD4FF4 /* YiRefresh */,
+			);
+			path = 3rdLibs;
+			sourceTree = "<group>";
+		};
+		CF33C953209AE91400FD4FF4 /* YiRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				CF33C954209AE91400FD4FF4 /* YiRefreshFooter.m */,
+				CF33C955209AE91400FD4FF4 /* YiRefreshHeader.m */,
+				CF33C956209AE91400FD4FF4 /* YiRefreshHeader.h */,
+				CF33C957209AE91400FD4FF4 /* YiRefreshFooter.h */,
+			);
+			path = YiRefresh;
+			sourceTree = "<group>";
+		};
 		CFA3CC612092AE3500FC06FB = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +231,12 @@
 				CFA3CC712092AE3600FC06FB /* ViewController.m */,
 				CF72F2742092F37F007F8FEA /* RegisterAPI.h */,
 				CF72F2752092F37F007F8FEA /* RegisterAPI.m */,
+				CF33C93B209ADA4A00FD4FF4 /* Model */,
+				CF33C93F209ADA7500FD4FF4 /* View */,
+				CF33C93E209ADA7200FD4FF4 /* Controller */,
+				CF33C93D209ADA6F00FD4FF4 /* ViewModel */,
+				CF33C93C209ADA6300FD4FF4 /* TableViewProtocol */,
+				CF33C952209AE8D600FD4FF4 /* 3rdLibs */,
 				CFA3CC732092AE3600FC06FB /* Main.storyboard */,
 				CFA3CC792092AE3F00FC06FB /* Assets.xcassets */,
 				CFA3CC7B2092AE3F00FC06FB /* LaunchScreen.storyboard */,
@@ -323,9 +419,17 @@
 			files = (
 				CFA3CC722092AE3600FC06FB /* ViewController.m in Sources */,
 				CFA3CC6F2092AE3600FC06FB /* AppDelegate.m in Sources */,
+				CF33C94E209ADE2100FD4FF4 /* TableViewDataSource.m in Sources */,
 				CF72F2732092BA26007F8FEA /* TestRequest.m in Sources */,
 				CF72F2762092F37F007F8FEA /* RegisterAPI.m in Sources */,
+				CF33C958209AE91500FD4FF4 /* YiRefreshFooter.m in Sources */,
+				CF33C959209AE91500FD4FF4 /* YiRefreshHeader.m in Sources */,
+				CF33C948209ADC4A00FD4FF4 /* TableViewController.m in Sources */,
 				CFA3CC802092AE3F00FC06FB /* main.m in Sources */,
+				CF33C942209ADBED00FD4FF4 /* CustomModel.m in Sources */,
+				CF33C951209ADE6E00FD4FF4 /* TableViewDelegate.m in Sources */,
+				CF33C94B209ADC6900FD4FF4 /* TableViewModel.m in Sources */,
+				CF33C945209ADC1700FD4FF4 /* CustomTableViewCell.m in Sources */,
 				CFA3CC782092AE3600FC06FB /* YTK_Test.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
