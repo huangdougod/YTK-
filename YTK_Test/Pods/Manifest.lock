@@ -14,22 +14,26 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - WYEasyButton (0.0.1)
   - YTKNetwork (2.0.4):
     - AFNetworking (~> 3.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
+  - WYEasyButton
   - YTKNetwork (~> 2.0.4)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - WYEasyButton
     - YTKNetwork
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  WYEasyButton: 9252c4ee8d532dbb1bfc324147c2c9cb274a13f3
   YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
 
-PODFILE CHECKSUM: c11e93cea26c134b49d79f9ed1bc7aeaa080380a
+PODFILE CHECKSUM: 38fbf206641e4ab837551f039a5e399a3a93e815
 
 COCOAPODS: 1.5.0
